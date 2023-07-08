@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+
+}
+.header{
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(img/background.png);
+    display: flex;
+}
+.header__wrapp{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+.header__a{
+    margin: 1rem;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+}
+.logo{
+    margin-top: 6rem;
+    font-family: 'Oswald', sans-serif;
+    color: #DB3138;
+    font-size: 120px;
+    font-weight: 700;
+}
+.discription{
+    text-align: center;
+    margin-top: 1rem;
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    font-size: 40px;
+    width: 40rem;
+    display: flex;
+    align-items: center;
+}
+.service{
+    display: flex;
+    margin-top: 2rem;
+}
+.inf__blocks{
+    display: flex;
+}
+.blocks{
+    margin-top: 4rem;
+    display: flex;
+    text-align: center;
+    border-top: 1px solid #898989;
+    height: 10rem;
+    width: 35.46rem;
+    font-family: 'Oswald', sans-serif;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.top{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 800;       
+}
+.bottom{
+
+    color: #DB3138;
+    font-size: 25px;
+    font-weight: 900;
+
+}
+.blocks1{
+    border-left: 1px solid #898989;
+    border-right: 1px solid #898989;
+    margin-top: 4rem;
+    display: flex;
+    text-align: center;
+    border-top: 1px solid #898989;
+    height: 10rem;
+    width: 35.46rem;
+    font-family: 'Oswald', sans-serif;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.blocks2{
+    margin-top: 4rem;
+    display: flex;
+    text-align: center;
+    border-top: 1px solid #898989;
+    height: 10rem;
+    width: 35.46rem;
+    font-family: 'Oswald', sans-serif;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
